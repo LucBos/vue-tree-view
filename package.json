@@ -17,7 +17,6 @@
     "node": ">= 6.0"
   },
   "author": "10Quality <info@10quality.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LucBos/vue-tree-view/issues"
   },
