@@ -5,7 +5,7 @@
   "main": "dist/vue.tree-view.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/10quality/vue-tree-view.git"
+    "url": "git+https://github.com/LucBos/vue-tree-view.git"
   },
   "keywords": [
     "vue",
@@ -13,11 +13,14 @@
     "tree",
     "view"
   ],
+  "engines": {
+    "node": ">= 6.0"
+  },
   "author": "10Quality <info@10quality.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/10quality/vue-tree-view/issues"
+    "url": "https://github.com/LucBos/vue-tree-view/issues"
   },
-  "homepage": "https://github.com/10quality/vue-tree-view"
+  "homepage": "https://github.com/LucBos/vue-tree-view"
   
 }

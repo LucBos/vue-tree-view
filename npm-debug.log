@@ -43,11 +43,11 @@
 24 info git [ 'rev-list', '-n1', 'master' ]
 25 silly resolveHead git+https://github.com/LucBos/vue-tree-view.git resolved treeish: 682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
 26 verbose resolveHead git+https://github.com/LucBos/vue-tree-view.git resolved Git URL: git+https://github.com/LucBos/vue-tree-view.git#682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
-27 silly resolveHead Git working directory: C:\Users\luc_b\AppData\Local\Temp\npm-15580-dfde9705\git-cache-65c925aa\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+27 silly resolveHead Git working directory: C:\Users\luc_b\AppData\Local\Temp\npm-23432-a96c5a3d\git-cache-e3ae14b3\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
 28 info git [ 'clone',
 28 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-LucBos-vue-tree-view-git-eacc3b6f',
-28 info git   'C:\\Users\\luc_b\\AppData\\Local\\Temp\\npm-15580-dfde9705\\git-cache-65c925aa\\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
-29 verbose cloneResolved git+https://github.com/LucBos/vue-tree-view.git clone Cloning into 'C:\Users\luc_b\AppData\Local\Temp\npm-15580-dfde9705\git-cache-65c925aa\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'...
+28 info git   'C:\\Users\\luc_b\\AppData\\Local\\Temp\\npm-23432-a96c5a3d\\git-cache-e3ae14b3\\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
+29 verbose cloneResolved git+https://github.com/LucBos/vue-tree-view.git clone Cloning into 'C:\Users\luc_b\AppData\Local\Temp\npm-23432-a96c5a3d\git-cache-e3ae14b3\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'...
 29 verbose cloneResolved done.
 30 info git [ 'checkout', '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
 31 verbose checkoutTreeish git+https://github.com/LucBos/vue-tree-view.git checkout Note: checking out '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'.
@@ -64,7 +64,7 @@
 31 verbose checkoutTreeish HEAD is now at 682c966... Initial commit
 32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
 33 verbose updateSubmodules git+https://github.com/LucBos/vue-tree-view.git submodule update
-34 error addLocal Could not install C:\Users\luc_b\AppData\Local\Temp\npm-15580-dfde9705\git-cache-65c925aa\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+34 error addLocal Could not install C:\Users\luc_b\AppData\Local\Temp\npm-23432-a96c5a3d\git-cache-e3ae14b3\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
 35 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
 35 silly fetchPackageMetaData  error for https://github.com/LucBos/vue-tree-view { Error: EISDIR: illegal operation on a directory, read errno: -4068, code: 'EISDIR', syscall: 'read' }
 36 silly rollbackFailedOptional Starting
