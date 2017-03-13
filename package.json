@@ -1,32 +1,14 @@
 {
-  "name": "vue-tree-view",
-  "description": "Tree View component for Vue JS.",
-  "version": "1.0.2",
-  "main": "dist/vue.tree-view.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LucBos/vue-tree-view.git"
+  "name": "vue-tree-view-1.0.3",
+  "version": "1.0.0",
+  "description": "[![GitHub version](https://badge.fury.io/gh/10quality%2Fvue-tree-view.svg)](https://badge.fury.io/gh/10quality%2Fvue-tree-view) [![Bower version](https://badge.fury.io/bo/vue-tree-view.svg)](https://badge.fury.io/bo/vue-tree-view)",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
   },
-  "keywords": [
-    "vue",
-    "vuejs",
-    "tree",
-    "view"
-  ],
-  "engines": {
-    "node": ">= 6.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "dist/vue.tree-view.css",
-	"dist/vue.tree-view.js",
-	"dist/vue.tree-view.min.css",
-	"dist/vue.tree-view.min.js",
-    "src"
-	],
-  "author": "10Quality <info@10quality.com>",
-  "bugs": {
-    "url": "https://github.com/LucBos/vue-tree-view/issues"
-  },
-  "homepage": "https://github.com/LucBos/vue-tree-view"
-  
+  "author": "",
+  "license": "ISC"
 }

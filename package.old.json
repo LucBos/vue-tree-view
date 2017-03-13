@@ -1,0 +1,32 @@
+{
+  "name": "vue-tree-view",
+  "description": "Tree View component for Vue JS.",
+  "version": "1.0.2",
+  "main": "dist/vue.tree-view.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucBos/vue-tree-view.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "tree",
+    "view"
+  ],
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "files": [
+    "dist/vue.tree-view.css",
+	"dist/vue.tree-view.js",
+	"dist/vue.tree-view.min.css",
+	"dist/vue.tree-view.min.js",
+    "src"
+	],
+  "author": "10Quality <info@10quality.com>",
+  "bugs": {
+    "url": "https://github.com/LucBos/vue-tree-view/issues"
+  },
+  "homepage": "https://github.com/LucBos/vue-tree-view"
+  
+}

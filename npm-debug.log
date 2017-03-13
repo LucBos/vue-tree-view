@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'LucBos/vue-tree-view' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData LucBos/vue-tree-view
+8 silly fetchOtherPackageData LucBos/vue-tree-view
+9 silly cache add args [ 'LucBos/vue-tree-view', null ]
+10 verbose cache add spec LucBos/vue-tree-view
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'LucBos/vue-tree-view',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'LucBos/vue-tree-view',
+11 silly cache add   spec: 'github:lucbos/vue-tree-view',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:lucbos/vue-tree-view.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/lucbos/vue-tree-view.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/lucbos/vue-tree-view.git',
+11 silly cache add      gitUrl: 'git://github.com/lucbos/vue-tree-view.git',
+11 silly cache add      shortcut: 'github:lucbos/vue-tree-view',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/lucbos/vue-tree-view/master/package.json' } }
+12 verbose addRemoteGit caching LucBos/vue-tree-view
+13 verbose addRemoteGit lucbos/vue-tree-view is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/lucbos/vue-tree-view.git
+15 silly tryClone cloning lucbos/vue-tree-view via git://github.com/lucbos/vue-tree-view.git
+16 verbose tryClone git-github-com-lucbos-vue-tree-view-git-fd7d3f73 not in flight; caching
+17 verbose correctMkdir C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+18 verbose makeDirectory C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+19 verbose makeCacheDir UID & GID are irrelevant on win32
+20 info git [ 'clone',
+20 info git   '--template=C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+20 info git   '--mirror',
+20 info git   'git://github.com/lucbos/vue-tree-view.git',
+20 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-lucbos-vue-tree-view-git-fd7d3f73' ]
+21 verbose git clone --template=C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/lucbos/vue-tree-view.git C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\git-github-com-lucbos-vue-tree-view-git-fd7d3f73: Cloning into bare repository 'C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\git-github-com-lucbos-vue-tree-view-git-fd7d3f73'...
+21 verbose git clone --template=C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/lucbos/vue-tree-view.git C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\git-github-com-lucbos-vue-tree-view-git-fd7d3f73: fatal: unable to connect to github.com:
+21 verbose git clone --template=C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/lucbos/vue-tree-view.git C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\git-github-com-lucbos-vue-tree-view-git-fd7d3f73: github.com[0: 192.30.253.112]: errno=Invalid argument
+21 verbose git clone --template=C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/lucbos/vue-tree-view.git C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes\git-github-com-lucbos-vue-tree-view-git-fd7d3f73: github.com[1: 192.30.253.113]: errno=Invalid argument
+22 silly tryHTTPS attempting to clone git+https://github.com/lucbos/vue-tree-view.git
+23 silly tryClone cloning lucbos/vue-tree-view via git+https://github.com/lucbos/vue-tree-view.git
+24 verbose tryClone git-https-github-com-lucbos-vue-tree-view-git-a4ada274 not in flight; caching
+25 verbose correctMkdir C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+26 info git [ 'clone',
+26 info git   '--template=C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+26 info git   '--mirror',
+26 info git   'https://github.com/lucbos/vue-tree-view.git',
+26 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-lucbos-vue-tree-view-git-a4ada274' ]
+27 verbose mirrorRemote lucbos/vue-tree-view git clone https://github.com/lucbos/vue-tree-view.git
+28 verbose setPermissions lucbos/vue-tree-view skipping chownr on Windows
+29 verbose resolveHead lucbos/vue-tree-view original treeish: master
+30 info git [ 'rev-list', '-n1', 'master' ]
+31 silly resolveHead lucbos/vue-tree-view resolved treeish: 682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+32 verbose resolveHead lucbos/vue-tree-view resolved Git URL: git+https://github.com/lucbos/vue-tree-view.git#682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+33 silly resolveHead Git working directory: C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-283069b0\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+34 info git [ 'clone',
+34 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-lucbos-vue-tree-view-git-a4ada274',
+34 info git   'C:\\Users\\luc_b\\AppData\\Local\\Temp\\npm-17272-fef037f5\\git-cache-283069b0\\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
+35 verbose cloneResolved lucbos/vue-tree-view clone Cloning into 'C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-283069b0\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'...
+35 verbose cloneResolved done.
+36 info git [ 'checkout', '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
+37 verbose checkoutTreeish lucbos/vue-tree-view checkout Note: checking out '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'.
+37 verbose checkoutTreeish
+37 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+37 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+37 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+37 verbose checkoutTreeish
+37 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+37 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+37 verbose checkoutTreeish
+37 verbose checkoutTreeish   git checkout -b <new-branch-name>
+37 verbose checkoutTreeish
+37 verbose checkoutTreeish HEAD is now at 682c966... Initial commit
+38 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+39 verbose updateSubmodules lucbos/vue-tree-view submodule update
+40 error addLocal Could not install C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-283069b0\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+41 silly trySSH attempting to clone git@github.com:lucbos/vue-tree-view.git
+42 silly tryClone cloning lucbos/vue-tree-view via git@github.com:lucbos/vue-tree-view.git
+43 verbose tryClone git-github-com-lucbos-vue-tree-view-git-89089109 not in flight; caching
+44 verbose correctMkdir C:\Users\luc_b\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+45 info git [ 'clone',
+45 info git   '--template=C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+45 info git   '--mirror',
+45 info git   'git@github.com:lucbos/vue-tree-view.git',
+45 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-lucbos-vue-tree-view-git-89089109' ]
+46 verbose mirrorRemote lucbos/vue-tree-view git clone git@github.com:lucbos/vue-tree-view.git
+47 verbose setPermissions lucbos/vue-tree-view skipping chownr on Windows
+48 verbose resolveHead lucbos/vue-tree-view original treeish: master
+49 info git [ 'rev-list', '-n1', 'master' ]
+50 silly resolveHead lucbos/vue-tree-view resolved treeish: 682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+51 verbose resolveHead lucbos/vue-tree-view resolved Git URL: git+ssh://git@github.com/lucbos/vue-tree-view.git#682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+52 silly resolveHead Git working directory: C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-87a4d788\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+53 info git [ 'clone',
+53 info git   'C:\\Users\\luc_b\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-lucbos-vue-tree-view-git-89089109',
+53 info git   'C:\\Users\\luc_b\\AppData\\Local\\Temp\\npm-17272-fef037f5\\git-cache-87a4d788\\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
+54 verbose cloneResolved lucbos/vue-tree-view clone Cloning into 'C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-87a4d788\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'...
+54 verbose cloneResolved done.
+55 info git [ 'checkout', '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf' ]
+56 verbose checkoutTreeish lucbos/vue-tree-view checkout Note: checking out '682c9669229ae6d717b8c43c1a6eb58e6b14fbaf'.
+56 verbose checkoutTreeish
+56 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+56 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+56 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+56 verbose checkoutTreeish
+56 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+56 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+56 verbose checkoutTreeish
+56 verbose checkoutTreeish   git checkout -b <new-branch-name>
+56 verbose checkoutTreeish
+56 verbose checkoutTreeish HEAD is now at 682c966... Initial commit
+57 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+58 verbose updateSubmodules lucbos/vue-tree-view submodule update
+59 error addLocal Could not install C:\Users\luc_b\AppData\Local\Temp\npm-17272-fef037f5\git-cache-87a4d788\682c9669229ae6d717b8c43c1a6eb58e6b14fbaf
+60 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+60 silly fetchPackageMetaData  error for LucBos/vue-tree-view { Error: EISDIR: illegal operation on a directory, read errno: -4068, code: 'EISDIR', syscall: 'read' }
+61 silly rollbackFailedOptional Starting
+62 silly rollbackFailedOptional Finishing
+63 silly runTopLevelLifecycles Finishing
+64 silly install printInstalled
+65 verbose stack Error: EISDIR: illegal operation on a directory, read
+66 verbose cwd C:\Users\luc_b\Documents\temp2\vue-tree-view
+67 error Windows_NT 10.0.14393
+68 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "LucBos/vue-tree-view"
+69 error node v7.4.0
+70 error npm  v4.0.5
+71 error code EISDIR
+72 error errno -4068
+73 error syscall read
+74 error eisdir EISDIR: illegal operation on a directory, read
+75 error eisdir This is most likely not a problem with npm itself
+75 error eisdir and is related to npm not being able to find a package.json in
+75 error eisdir a package you are trying to install.
+76 verbose exit [ -4068, true ]
