@@ -5,7 +5,7 @@
   "main": "dist/vue.tree-view.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/10quality/vue-tree-view.git"
+    "url": "git+https://github.com/10quality/vue-tree-view.git"
   },
   "keywords": [
     "vue",
